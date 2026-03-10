@@ -135,7 +135,7 @@
     font-size:28px;
     font-weight:bold;
     display:block;
-    Margin:5 auto;
+    Margin:0 auto;
 }
 
 .number1{
@@ -209,10 +209,12 @@
 
 .text1{
     font-size: 18px;
+    padding:5px;
+    
 }
 .text2{
     font-size: 18px;
-}
+    padding:5px;}
 .text3{
     font-size: 18px;
-}
+    padding:5px;}
