@@ -1,220 +1,197 @@
-.body{
-    margin-top: 12px;
-    height:55px;
-    
-    
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    align-items: center;
-
-
-   
-
-
-   
+body {
+  margin: 0;
+  padding: 20px 0;
+  background-color: #ffffff;
 }
 
-.factor-logo{
-   background-color: black;
-   color:white;
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: bold;
-   font-size: 38px;
-   padding-left:160px ;
-   padding-right:160px ;
-   padding-top: 15px;
-   padding-bottom:15px;
-   
- 
+.email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.paragragh{
-    background-color: rgb(225, 213, 204);
-    text-align: center;
-
+.factor-logo {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 38px;
+  padding: 15px 160px;
+  text-align: center;
 }
 
-.your{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-
-
+.hero-section {
+  background-color: rgb(225, 213, 204);
+  text-align: center;
+  width: 560px;
+  padding: 20px 0 30px;
 }
 
-.freebie-box{
-   font-family:sans-serif;
-   color:rgb(230, 182, 70);
-   -webkit-text-stroke:3px black ;
-   font-size:60px;
-   margin-top: 0;
-   margin-bottom: 0;
-   text-align: center;
-
-} 
-
-.text{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight:bold;
-    font-size:25px;
-    
-
+.your {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
-.image1{
-    width: 400px;
-    margin-bottom: 20px;
-    
+.freebie-box {
+  font-family: sans-serif;
+  color: rgb(230, 182, 70);
+  -webkit-text-stroke: 3px black;
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
 }
 
-.image2{
-    width: 400px;
-   
+.text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
-.share-button{
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:18px;
-    border: none;
-    width: 240px;
-    padding:16px;
-    text-align: center;
-    margin: 70px;
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-.share-button:hover{
-    background-color: rgb(59, 58, 58);
-
+.image1,
+.image2 {
+  width: 400px;
+  display: block;
 }
 
-.note{
-   width: 400px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    margin-left:80px;
-    
+.image1 {
+  margin-bottom: 20px;
 }
 
-.infomation{
-    background-color: black;
-    width:400px;
-    color:white;
-    text-align: center;
-    padding-left:80px;
-    padding-right: 80px;
-    padding-top: 20px;
+.button {
+  text-align: center;
+  margin: 40px 0;
 }
 
-.free-box{
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    padding-bottom:10px;
+.share-button {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 16px 32px;
 }
 
-.free-box-info{
-
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 50px;
-
+.share-button:hover {
+  background-color: rgb(59, 58, 58);
 }
+
+.note-div {
+  display: flex;
+  justify-content: center;
+}
+
+.note {
+  width: 400px;
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+}
+
+.information {
+  background-color: black;
+  width: 400px;
+  color: white;
+  text-align: center;
+  padding: 20px 80px 40px;
+}
+
+.free-box {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.free-box-info {
+  padding-bottom: 50px;
+  line-height: 1.5;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
 .number1,
 .number2,
-.number3{
-    width: 55px;
-    height:55px;
-    border-radius:50%;
-    border:none;
-    color:white;
-    font-size:28px;
-    font-weight:bold;
-    display:block;
-    Margin:0 auto;
+.number3 {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.number1{
-    background-color: #b7cfff;
+.number1 {
+  background-color: #b7cfff;
 }
 
-.number2{
-    background-color: #73ef63;
+.number2 {
+  background-color: #73ef63;
 }
 
-.number3{
-    background-color: #ff6a33;
+.number3 {
+  background-color: #ff6a33;
 }
 
-
-
-
-
-
-
-
-.numbers{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
+.number-texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
 }
 
-.number-texts{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    padding-bottom: 60px;
-
+.text1,
+.text2,
+.text3 {
+  font-size: 18px;
+  padding: 5px;
+  margin: 0;
 }
 
-
-.follow-us{
-    background-color: rgb(225, 213, 204);
-    padding-left:80px;
-    padding-right:80px;
-    text-align: center;
-    background-color: rgb(225, 213, 204);
-    padding-left:80px;
-    padding-right:80px;
-    width: 400px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    margin-top:0;
-    padding-top: 16px;
-    text-align: center;
+.follow-us {
+  background-color: rgb(225, 213, 204);
+  width: 400px;
+  padding: 16px 80px 30px;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 0;
 }
 
-.title{
-    font-size:20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    padding-top: 20px;
-
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
 }
 
-.site-links{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly ;
-    padding-top: 30px;
-
+.site-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
-.text1{
-    font-size: 18px;
-    padding:5px;
-    
+.social-icon {
+  width: 28px;
+  height: 28px;
 }
-.text2{
-    font-size: 18px;
-    padding:5px;}
-.text3{
-    font-size: 18px;
-    padding:5px;}
+
+.text-info {
+  line-height: 1.6;
+}
